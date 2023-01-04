@@ -1,10 +1,13 @@
 import React from 'react';
-import '../styles/nopage.css';
+import '../styles/NoPage.css';
 
 function NoPage() {
   return (
-    <h1>404</h1>
+    <div>
+      <h1>404</h1>
+    </div>
+    
   );
-}
+};
 
 export default NoPage;
